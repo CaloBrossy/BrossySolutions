@@ -1,11 +1,38 @@
-<div align="center">
+# Nova Digital - Landing Page
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Esta es una landing page premium para consultoría de software, construida con tecnologías modernas.
 
-  <h1>Built with AI Studio</h2>
+## Tecnologías
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **React 19**
+- **Tailwind CSS v4**
+- **Framer Motion** (Animaciones)
+- **Lucide React** (Iconos)
+- **Vite** (Build tool)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Cómo empezar en local (Cursor / VS Code)
 
-</div>
+1. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
+
+2. **Iniciar servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Construir para producción:**
+   ```bash
+   npm run build
+   ```
+
+## Estructura del Proyecto
+
+- `/src/App.tsx`: Componente principal que contiene toda la estructura de la landing.
+- `/src/index.css`: Configuración global de estilos y tema de Tailwind.
+- `/src/main.tsx`: Punto de entrada de la aplicación React.
+
+## Personalización
+
+Puedes ajustar los colores y tipografías en `src/index.css` dentro de la directiva `@theme`.
